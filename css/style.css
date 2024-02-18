@@ -358,6 +358,9 @@ body {
   grid-template: repeat(7, 5vw)/repeat(8, 1fr);
   grid-gap: 1.5rem;
   padding: 1.5rem; }
+  @media only screen and (max-width: 50em) {
+    .gallery {
+      grid-gap: .4rem; } }
   .gallery__item--1 {
     grid-row: 1 / span 2;
     grid-column: 1 / span 2; }
